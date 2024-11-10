@@ -1,0 +1,30 @@
+    
+.board {
+    display: grid;
+    row-gap: 10px;
+ 
+    justify-content: space-around;
+    
+    width: 100vw;
+    height: 100vh;
+ 
+  }
+
+  .template {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+ }
+
+  .flexconteiner {
+     display: flex;
+  }
+ 
+  .card {
+     flex-direction:column;
+     justify-content: center;
+     align-items: center;
+  }
+ 
+  .docheade {
+   text-align: center;
+  }
